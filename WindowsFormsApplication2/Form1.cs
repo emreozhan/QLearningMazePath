@@ -279,11 +279,7 @@ namespace WindowsFormsApplication2
 
                 for (sayac = 0; sayac < ITERASYON; sayac++)
                 {
-                    //aksiyonu belirlemek için
-                    //  for (int kk = 0; kk < OdaSayisi; kk++)
-                    //    if (Rmatrisi[START, kk] != -1)
-                    //      aksiyon = kk;
-                    //aksiyonu belirlemek için
+                   
                     while (true)
                     {
                         aksiyon = rnd.Next(0, OdaSayisi);
